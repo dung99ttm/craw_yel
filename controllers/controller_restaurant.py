@@ -16,7 +16,6 @@ from enum_new import RESTAURANT_COMMENT_IMAGE_CLASS
 from alchemy import Restaurant, Comment, RestaurantImage, CommentImage, Service
 from alchemy import insert_res, insert_ser, insert_res_img, insert_res_ser, insert_com_img, insert_com, get_categories
 
-
 class ControllerRestaurant:
 
     def __init__(self):
